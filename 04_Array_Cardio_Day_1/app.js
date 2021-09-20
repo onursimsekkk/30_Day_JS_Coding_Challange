@@ -96,8 +96,13 @@ console.table(mostLived);
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name
+// First I splitted them into the arrays but it is not necessary if you don't wanto split them into arrays
+// const splitted = people.map(person => person.split(", "));
+const sortedByLastName = people.sort();
 
+console.log(sortedByLastName);
 
 // 8. Reduce Exercise
 // Sum up the instances of each of these
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
