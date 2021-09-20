@@ -91,10 +91,12 @@ const links = Array.from(category.querySelectorAll("a"));
 
 const texts = links.map(link => link.textContent);
 const includesDe = texts.filter(item => item.includes("de"));
-console.table(includesDe);
+// You can view this table only wikipedia link's console after apply
+// console.table(includesDe); 
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name
+
 
 // 8. Reduce Exercise
 // Sum up the instances of each of these
