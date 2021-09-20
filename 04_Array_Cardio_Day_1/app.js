@@ -86,11 +86,11 @@ console.table(mostLived);
 
 // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-const category = document.querySelector(".mw-category");
-const links = Array.from(category.querySelectorAll("a"));
+// const category = document.querySelector(".mw-category");
+// const links = Array.from(category.querySelectorAll("a"));
 
-const texts = links.map(link => link.textContent);
-const includesDe = texts.filter(item => item.includes("de"));
+// const texts = links.map(link => link.textContent);
+// const includesDe = texts.filter(item => item.includes("de"));
 // You can view this table only wikipedia link's console after apply
 // console.table(includesDe); 
 
