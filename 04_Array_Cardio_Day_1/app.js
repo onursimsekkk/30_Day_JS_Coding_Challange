@@ -86,6 +86,12 @@ console.table(mostLived);
 
 // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+const category = document.querySelector(".mw-category");
+const links = Array.from(category.querySelectorAll("a"));
+
+const texts = links.map(link => link.textContent);
+const includesDe = texts.filter(item => item.includes("de"));
+console.table(includesDe);
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name
